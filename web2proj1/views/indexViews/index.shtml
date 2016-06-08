@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <title>Company </title>
+    <link href="../../stylesheets/cssMainWeb2.css" type="text/css" rel="stylesheet">
+      <script src="../../scripts/script.js"></script>
+  </head>
+  <body>
+
+<div class="containerouter">
+<!-- header -->
+  <!--include file="web2nav.shtml" -->
+  <div class="containerheader">
+      <div class="containernav">
+  <nav class="navmain">
+  
+    <ul class="navlist">
+      <li class="navitem"><a href="" class="navlink">Home</a></li>
+      <li class="navitem"><a href="" class="navlink">Trouble Shooting</a></li>
+      <li class="navitem"><a href="about.shtml" class="navlink">About</a></li>
+      <li class="navitem"><a href="" class="navlink">Contact</a></li>
+        <li class="navitem navlogin" >Password: <input id="loginpassword" width="7em" name="loginpassword" type="password" required></li>
+        <li class="navitem navlogin">Login: <input class="loginusername" width="7em" id="loginusername" name="loginusername" type="text" placeholder="username"></li>
+        
+    </ul>
+  </nav>
+</div><!-- end container nav-->
+    <h1 class="companyname">Company Name</h1>
+  
+</div><!--end containerheder-->
+<!-- end header -->
+<!-- main -->
+  <div class="containermain">
+    <div class="containercolumn">
+      <hgroup>
+        <h1>Trouble Shoot</h1>
+          <h3>Internet, Wi-Fi, Phone, rejoin what connects you</h3>
+      </hgroup>
+      <p>From phones, PCs, printers, -heck refrigerators and thermostats these days, 
+          we are the experts to turn to when you need clear information that helps you 
+          make decisions for your technology.</p>
+    </div>
+    <div class="containercolumn">
+      <hgroup>
+        <h1>About Us</h1>
+          <h2>Find out where we get the expertise to manage your needs in the year
+               <!--#config timefmt="Y%"--><!--#echo var="DATE_LOCAL"--></h2>
+      </hgroup>
+        <p>We believe in education, experience and enthusiasm</p>
+    </div>
+    <div class="containercolumn">
+      <p>text goes here</p>
+    </div>
+  </div><!--end containermain-->
+  </div><!--end containerouter-->
+    
+  
+  </body>
+
+  
+</html>

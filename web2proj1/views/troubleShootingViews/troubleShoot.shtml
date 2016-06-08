@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta title="description" content="trouble shooting tools to help electronics consumers"/>
+        <link href="../../stylesheets/cssMainWeb2.css" type="text/css" rel="stylesheet"/>
+        <script src="../../scripts/script.js" type="text/javascript"></script>
+        
+        <title>Trouble Shoot</title>
+    </head>
+    <body>
+        <!-- end header -->
+<!-- main -->
+  <div class="containermain">
+    <div class="containernavsideleft ">
+      <ul class="navsidelist ">
+        <li class="navsideitem"><a class="navsidelink" onclick="">PCs / Laptops</a></li>
+          <li class="navsideitem"><a class="navsidelink" onclick="">Phones</a></li>
+          <li class="navsideitem"><a class="navsidelink" onclick="">tablets</a></li>
+          <li class="navsideitem "><a class="navsidelink " onclick="">Other Wireless Dev.</a></li>
+      </ul>
+    </div><!--end constainernavsideleft-->  
+  </div><!--end containermain-->
+    </body>
+</html>

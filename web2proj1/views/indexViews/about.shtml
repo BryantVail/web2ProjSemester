@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>Untitled</title>
+<meta charset="UTF-8"/>
+<link rel="stylesheet" href="../../stylesheets/cssMainWeb2.css" type="text/css"/>
+    <script src="../../scripts/script.js" type="text/javascript" ></script>
+</head>
+<body>
+<div  class="containermain">
+  <div  class="containerleft">
+    <section  class="sectionmain">
+      <hgroup  class="hgroupmain">
+        <h2> Trust us with your Tech</h2>
+          <h4> Software, Hardware, Consulting, we fight for your approval</h4>
+      
+      </hgroup>
+        <span  class="companyname"> Our Passion</span> is driven by the connection with people and the obligation to provide access to straight forward technical guidance not muddled by hourly pay or a warranty deadline.
+    </section>
+  </div><!--end containerleft -->
+<div  class="containerright">
+          
+  </div><!--end containerright -->
+</div><!--end container main -->
+</body>
+</html>
