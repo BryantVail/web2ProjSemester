@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Internet</title>
+        <meta charset="utf-8" />
+        <link href="../../stylesheets/cssMain.css" rel="stylesheet" type="text/css">
+        <script type="text/javascript" src="../../scripts/script.js"></script>
+       
+    </head>
+    <body>
+        <form action="formInternet.js" method="post" id="formInternet" name="formInternet">
+            <label>Select Internet Connection Type: </label>&nbsp;<input type="radio" id="conntectiontype" name="connectiontype" value="wireless">Wireless&nbsp;
+            <input type="radio" id="conntectiontype" name="connectiontype" value="ethernet">Ethernet/Hardwired <br>
+            <label>Have you connected to this network before?</label>&nbsp;<input type="radio" id="previousConnection" name="previousConnection" value="yes">Yes &nbsp;&nbsp;
+                <input type="radio" name="previousConnection" id="previousConnection" value="no">No <br>
+            <label>Are there any other devices in your possession that are currently connected?</label>
+                <input type="radio" name="altDeviceConnected" id="altDeviceConnected" value="yes">Yes&nbsp;&nbsp;
+                    <input type="radio" name="altDeviceConnected" id="altDeviceConnected" value="no">No
+        
+        </form>
+    </body>
+</html>
